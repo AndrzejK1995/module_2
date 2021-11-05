@@ -3,3 +3,19 @@
 @import url(dom_section.css);
 @import url(zero_margin-section.css);
 @import url(normalize.css);
+
+.body {
+    max-width: 1440px;
+}
+.title_section{
+    max-width: 1140px;
+}
+.margin_section {
+    max-width: 1140px;
+}
+.dom_section {
+    max-width: 1140px;
+}
+.zero_margin-section {
+    max-width: 1140px;
+}
