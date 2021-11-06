@@ -4,7 +4,12 @@
     font-size: 20px;
     line-height: 120%;
     color: #000000;
+    list-style-type: "-";
 }
 .modificator {
-    margin-left: 49px;
+    margin-left: 64px;
+    margin-bottom: 22px;
+}
+.height {
+    height: 376px;
 }
