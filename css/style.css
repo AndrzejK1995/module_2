@@ -3,19 +3,26 @@
 @import url(dom_section.css);
 @import url(zero_margin-section.css);
 @import url(normalize.css);
+@import url(global_styles.css);
 
-.body {
-    max-width: 1440px;
+body {
+    font-family: Roboto;
+    background-color:  white;;
 }
-.title_section{
+.container {
     max-width: 1140px;
+    margin: auto;
 }
-.margin_section {
-    max-width: 1140px;
+.title-section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: auto;
 }
-.dom_section {
-    max-width: 1140px;
+.margin-section {
+   
 }
-.zero_margin-section {
-    max-width: 1140px;
+.dom-section {
+}
+.zero-margin-section {
+   
 }

@@ -1,9 +1,42 @@
-.title_section__header {
-    font-family: Roboto;
+
+.title-section__header {
     font-style: normal;
     font-weight: 900;
     font-size: 60px;
     line-height: 120%;
     color: #000000;
     text-align: center;
+    margin-bottom: 30px;
+}
+.title-section__article {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.mod {
+    margin-bottom: 30px;
+}
+.content {
+    background-color: #F1F1F1;
+}
+.content-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 120%;
+    color: #000000;
+    margin-left: 45px;
+    padding-top: 25px;
+}
+.content__list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #02535F;
+    margin-left: 30px;
+    padding-bottom: 25px;
 }

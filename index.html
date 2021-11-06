@@ -2,35 +2,60 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Module_2</title>
     </head>
     <body>
 
-        <section class="title_section">
-            <container class="title_section__container">
-                <h1 class="title_section__header">
+        <section class="title-section">
+            <div class="container">
+                <h1 class="title-section__header">
                     Отступы в вёрстке: margin и padding
                 </h1>
-            </container>
+                <p class="title-section__article mod">
+                    В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. 
+                    Если точнее — речь пойдет об основных правилах организации отступов. 
+                    Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. 
+                    При этом другие части кода продолжат нормально работать.
+                </p>
+                <p class="title-section__article">
+                    Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. 
+                    Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков.
+                    Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.
+                </p>
+                <div class="content">
+                    <h2 class="content-header">Содержание</h2>
+                    <ol class="content__list">
+                        <li>
+                            <a href="margin">Отступ задается от предыдущего элемента к следующему</a>
+                        </li>
+                        <li>
+                            <a href="dom">Отступ задается последнему возможному элементу в DOM-дереве</a>
+                        </li>
+                        <li>
+                            <a href="zero">Для последнего элемента группы отступ обнуляется</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
         </section>
 
-        <section class="margin_section">
-            <container class="margin_sectiion__container">
+        <section class="margin-section">
+            <div class="container">
 
-            </container>
+            </div>
         </section>
 
-        <section class="dom_section">
-            <container class="dom_section__container">
+        <section class="dom-section">
+            <div class="container">
 
-            </container>   
+            </div>   
         </section>
 
-        <section class="zero_margin-section">
-            <container class="zero_margin-section__container">
+        <section class="zero-margin-section">
+            <div class="container">
 
-            </container>
+            </div>
         </section>
     </body>
 </html>
