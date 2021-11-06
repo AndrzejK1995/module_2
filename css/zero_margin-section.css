@@ -1,0 +1,52 @@
+.container__zero-header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.bottom {
+    ma
+    margin-bottom: 84px;
+}
+.useful-wrong-ad {
+    background: url(../pictures/useful-wrong-ad-pictire.jpg);
+    width: 600px;
+    height: 600px;
+    margin-left: 154px;
+    margin-bottom: 30px;
+}
+.extra-picture-advices {
+    background: url(../pictures/advices-extra.jpg);
+    width: 600px;
+    height: 607px;
+    margin-left: 154px;
+    margin-bottom: 30px;
+}
+.html-code-picture {
+    background: url(../pictures/html-code-picture.jpg);
+    width: 1080px;
+    height: 530px;
+    margin-bottom: 30px;
+}
+.example-picture {
+    background: url(../pictures/example-picture.jpg);
+    width: 1080px;
+    height: 88px;
+    margin-bottom: 30px;
+}
+.html-example-picture {
+    background: url(../pictures/html-example-picture.jpg);
+    width: 806px;
+    height: 475px;
+    margin-left: 154px;
+    margin-bottom: 30px;
+}
+.css-example {
+    background: url(../pictures/css-example-picture.jpg);
+    width: 317px;
+    height: 110px;
+    margin-left: 340px;
+    margin-bottom: 30px;
+}

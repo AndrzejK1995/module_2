@@ -1,96 +1,48 @@
-html {
-    position: relative;
-    box-sizing: border-box;
+.container__dom-header {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
 }
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+.dom-picture {
+  background: url(../pictures/dom-picture.jpg);
+  width: 1080px;
+  height: 537px;
+  margin-bottom: 30px;
 }
-
-body {
-    min-width: 320px;
-    min-height: 100vh;
-
-    font-family: Arial, sans-serif;
-    /* указать шрифт под проект*/
-    font-size: 16px;
-    font-weight: 400;
-    color: hsl(34, 78%, 91%); /*цвет под ваш проект*/
+.advices-picture {
+  background: url(../pictures/advices-picture.jpg);
+  width: 601px;
+  height: 450px;
+  margin-left: 246px;
+  margin-bottom: 29px;
 }
-
-
-img {
-    max-width: 100%;
-    height: auto;
+.extra-advices-picture {
+  background: url(../pictures/advices-extra-picture.jpg);
+  width: 1080px;
+  height: 427px;
+  margin-bottom: 15px;
 }
-
-
-button {
-    cursor: pointer;
+.extra-advices-picture__caption {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 120%;
+  color: #5E5E5E;
+  margin-left: 66px;
+  margin-bottom: 45px;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
+.dom-html-picture {
+  background: url(../pictures/dom-html-picture.jpg);
+  width: 964px;
+  height: 164px;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-ul,
-p,
-figure,
-fieldset {
-    margin: 0;
-}
-
-iframe {
-    border: none;
-}
-
-/*
-  Доступно скрываю элементы
-*/
-
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
-
-/*
-  Пример контейнера
-  Если контейнер 1080px по макету,
-  то для max-width прибавляем паддинги 30px*2, 
-  в итоге 1240px
-  Чтобы контент не прижимался к краям экрана
-*/
-
-.container {
-  max-width: 1240px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
-/*
-  У секции добавляю вертикальные паддинги,
-  это половина от расстояния между блоками
-*/
-
-section {
-  padding: 50px 0;
+.dom-example-picture {
+  background: url(../pictures/dom-example-picture.jpg);
+  width: 1022px;
+  height: 504px;
+  margin-bottom: 30px;
 }

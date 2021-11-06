@@ -13,8 +13,21 @@ body {
     max-width: 1140px;
     margin: auto;
 }
+.container__paragraph-margin {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 30px;
+}
 .title-section{
     padding-top: 60px;
     padding-bottom: 50px;
     margin: auto;
+}
+.margin-section {
+    padding-bottom: 50px;
+}
+.dom-section {
+    padding-bottom: 50px;
 }
