@@ -45,7 +45,7 @@
                     Отступ задается от предыдущего элемента к следующему:<br> от первого ко второму, сверху вниз, слева направо.
                 </h2>
                 <div class="right">
-                <p class="container__paragraph-margin"><bold>ВАЖНО</bold>: <italic>margin</italic> всегда задают от предыдущего<br>  элемента к следующему.</p>
+                <p class="container__paragraph-margin"><b>ВАЖНО</b>: <italic>margin</italic> всегда задают от предыдущего<br>  элемента к следующему.</p>
                 <p class="container__paragraph-margin">
                     Свойство margin необходимо только для того,<br>  чтобы отодвинуть своего соседа справа или снизу,<br>  поэтому используется margin-right и margin-bottom.
                 </p>
@@ -70,13 +70,54 @@
 
         <section class="dom-section">
             <div class="container">
-
+                <h2 class="container__dom-header">Отступ задается последнему возможному элементу в DOM-<br>дереве</h2>
+                <p class="container__paragraph-margin">
+                    Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на<br> этот список:
+                </p>
+                <div class="dom-picture"></div>
+                <div class="advices-picture"></div>
+                <p class="container__paragraph-margin">Отступ делают за счёт соседних элементов, а не дочерних:</p>
+                <div class="extra-advices-picture">
+                </div>
+                <p class="extra-advices-picture__caption">
+                    <b>ВАЖНО</b>: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить<br> списки.
+                </p>
+                <p class="container__paragraph-margin">
+                    Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке &lt;article&gt; для достижения той же цели. Внешне<br> останется все точно также, но так делать не рекомендуется.
+                </p>
+                <p class="container__paragraph-margin">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
+                <div class="dom-html-picture"></div>
+                <p class="container__paragraph-margin">
+                    В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section. Именно для него задается padding-top, а не div с классом container. Свойства margin, которые стоят по умолчанию необходимо обнулить.
+                </p>
+                <div class="dom-example-picture"></div>
+                <p class="container__paragraph-margin">
+                    Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.
+                </p>
             </div>   
         </section>
-
         <section class="zero-margin-section">
             <div class="container">
-
+                <h2 class="container__zero-header">Для последнего элемента группы отступ всегда обнуляется</h2>
+                <p class="container__paragraph-margin"> Для наглядности возьмём наш предыдущий пример с рецептами</p>
+                <p class="container__paragraph-margin bottom"> 
+                    Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
+                </p>
+                <div class="useful-wrong-ad"></div>
+                <p class="container__paragraph-margin">
+                    В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для<br> section. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю<br> секциям padding-top:50px и padding-bottom:50px.
+                </p>
+                <div class="extra-picture-advices"></div>
+                <div class="html-code-picture"></div>
+                <p class="container__paragraph-margin">
+                    Для большего понимания рассмотрим другой пример, который часто встречается на практике:
+                </p>
+                <div class="example-picture"></div>
+                <div class="html-example-picture"></div>
+                <p class="container__paragraph-margin">
+                    Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню<br> задаются так:
+                </p>
+                <div class="css-example"></div>
             </div>
         </section>
     </body>
