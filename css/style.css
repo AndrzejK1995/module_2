@@ -4,6 +4,7 @@
 @import url(zero_margin-section.css);
 @import url(normalize.css);
 @import url(global_styles.css);
+@import url(footer_section.css);
 
 body {
     font-family: Roboto;

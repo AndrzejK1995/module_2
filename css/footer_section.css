@@ -1,0 +1,10 @@
+.black { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+}
+.modificator {
+    margin-left: 49px;
+}
