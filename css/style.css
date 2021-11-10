@@ -9,16 +9,17 @@
 body {
     font-family: Roboto;
     background-color:  white;;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
 }
 .container {
     max-width: 1140px;
     margin: auto;
 }
 .container__paragraph-margin {
-    font-style: normal;
-    font-size: 20px;
-    line-height: 120%;
-    color: #000000;
+    
     margin-bottom: 30px;
 }
 .title-section{
