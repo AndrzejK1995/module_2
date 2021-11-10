@@ -21,8 +21,8 @@
   font-size: 20px;
   line-height: 120%;
   color: #5E5E5E;
-  margin-left: 66px;
-  margin-bottom: 45px;
+  padding: 0px 66px;
+  padding-bottom: 45px;
 }
 .dom-html-picture {
   padding: 0px 57px;
