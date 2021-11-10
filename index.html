@@ -24,12 +24,12 @@
                     Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.
                 </p>
                 <div class="content">
-                    <h2 class="content-header">Содержание</h2>
+                    <h2 class="content-header">Содержание:</h2>
                     <ol class="content__list">
-                        <li>
+                        <li class="margin-mod">
                             <a href="#margin">Отступ задается от предыдущего элемента к следующему</a>
                         </li>
-                        <li>
+                        <li class="margin-mod">
                             <a href="#dom">Отступ задается последнему возможному элементу в DOM-дереве</a>
                         </li>
                         <li>
@@ -54,8 +54,12 @@
                     Для <i>padding</i> верно обратное. Исключением<br>  является его применения в декоративных целях,<br>  например, для увеличения области ссылки.
                 </p>
             </div>
-            <div class="collage-picture"></div>
-            <div class="margin-picture"></div>
+            <figure class="collage-picture">
+                <img src="./pictures/collage.jpg" alt="образец коллажа фоток с отступами">
+            </figure>
+            <figure class="margin-picture">
+                <img src="./pictures/margin-picture.jpg" alt="образец фото с">
+            </figure>
             <p class="container__paragraph-margin">
                 Отступ внутри блока сверху или слева<br> реализуется через <i>padding-top</i> и <i>padding-left</i><br> родителя.
             </p>
@@ -74,11 +78,16 @@
                 <p class="container__paragraph-margin">
                     Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на<br> этот список:
                 </p>
-                <div class="dom-picture"></div>
-                <div class="advices-picture"></div>
+                <figure class="dom-picture">
+                    <img src="./pictures/dom-picture.jpg" alt="скриншот с html разметкой">
+                </figure>
+                <figure class="advices-picture">
+                    <img src="./pictures/advices-picture.jpg" alt="картинка с советами">
+                </figure>
                 <p class="container__paragraph-margin">Отступ делают за счёт соседних элементов, а не дочерних:</p>
-                <div class="extra-advices-picture">
-                </div>
+                <figure class="extra-advices-picture">
+                    <img src="./pictures/advices-extra-picture.jpg" alt="дополнительные советы по отступам">
+                </figure>
                 <p class="extra-advices-picture__caption">
                     <b>ВАЖНО</b>: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить<br> списки.
                 </p>
@@ -86,11 +95,15 @@
                     Казалось бы, можно задать отступ параграфу <i>&lt;p&gt;</i>, либо обёртке <i>&lt;article&gt;</i> для достижения той же цели. Внешне<br> останется все точно также, но так делать не рекомендуется.
                 </p>
                 <p class="container__paragraph-margin">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
-                <div class="dom-html-picture"></div>
+                <figure class="dom-html-picture">
+                    <img src="./pictures/dom-html-picture.jpg" alt="dom структура">
+                </figure>
                 <p class="container__paragraph-margin">
                     В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <i>section</i>. Именно для него<br> задается <i>padding-top</i>, а не <i>div</i> с классом <i>container</i>. Свойства <i>margin</i>, которые стоят по умолчанию необходимо<br>обнулить.
                 </p>
-                <div class="dom-example-picture"></div>
+                <figure class="dom-example-picture">
+                    <img src="./pictures/dom-example-picture.jpg" alt="образец dom структуры">
+                </figure>
                 <p class="container__paragraph-margin">
                     Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после<br> вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с<br> нестандартной структурой отступов.
                 </p>
@@ -103,39 +116,53 @@
                 <p class="container__paragraph-margin bottom"> 
                     Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
                 </p>
-                <div class="useful-wrong-ad"></div>
+                <figure class="useful-wrong-ad">
+                    <img src="./pictures/useful-wrong-ad-pictire.jpg" alt="картинка с полезными и вредными советами">
+                </figure>
                 <p class="container__paragraph-margin">
                     В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через <i>padding</i> для<br> <i>section</i>. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю<br> секциям <i>padding-top:50px</i> и <i>padding-bottom:50px</i>.
                 </p>
-                <div class="extra-picture-advices"></div>
-                <div class="html-code-picture"></div>
+                <figure class="extra-picture-advices">
+                    <img src="./pictures/advices-extra.jpg" alt="дополнительные советы по отступам">
+                </figure>
+                <figure class="html-code-picture">
+                    <img src="./pictures/html-code-picture.jpg" alt="html разметка по отступам">
+                </figure>
                 <p class="container__paragraph-margin">
                     Для большего понимания рассмотрим другой пример, который часто встречается на практике:
                 </p>
-                <div class="example-picture"></div>
-                <div class="html-example-picture"></div>
+                <figure class="example-picture">
+                    <img src="./pictures/example-picture.jpg" alt="пример по отступам">
+                </figure>
+                <figure class="html-example-picture">
+                    <img src="./pictures/html-example-picture.jpg" alt="html разметка">
+                </figure>
                 <p class="container__paragraph-margin">
                     Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню<br> задаются так:
                 </p>
-                <div class="css-example"></div>
+                <figure class="css-example">
+                    <img src="./pictures/css-example-picture.jpg" alt="css код">
+                </figure>
                 <p class="container__paragraph-margin">
                     Советую использовать псевдоклассы <i>:last-child</i> чаще других, например так:
                 </p>
-                <div class="css-example-scnd"></div>
+                <figure class="css-example-scnd">
+                    <img src="./pictures/css-scnd-picture.jpg" alt="css код">
+                </figure>
             </div>
         </section>
         <section class="footer">
             <div class="container">
                 <div class="content height">
-                    <h2 class="content-header">Подытожим:</h2>
-                    <ol class="content__list black">
-                        <li>отступы задаём от предыдущего элемента к следующему</li>
-                        <li>используем только <i>margin-right</i> и <i>margin-bottom</i></li>
-                        <li>внешние отступы задаются только между соседями</li>
-                        <li>внутренний отступ задаём самому верхнему элементу в дом дереве</li>
+                    <h2 class="content-header-mod">Подытожим:</h2>
+                    <ol class="content__list-black">
+                        <li class="content__marga">отступы задаём от предыдущего элемента к следующему</li>
+                        <li class="content__marga">используем только <i>margin-right</i> и <i>margin-bottom</i></li>
+                        <li class="content__marga">внешние отступы задаются только между соседями</li>
+                        <li class="content__marga">внутренний отступ задаём самому верхнему элементу дом дереве</li>
                         <li>последнему элементу группы отступ всегда обнуляем</li>
                     </ol>
-                    <p class="container__paragraph-margin modificator">
+                    <p class="last-paragraph">
                         Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы<br> приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы<br> необходимо хорошо знать.
                     </p>
                 </div>

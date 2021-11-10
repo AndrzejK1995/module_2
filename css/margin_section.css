@@ -4,7 +4,7 @@
     font-size: 36px;
     line-height: 120%;
     color: #000000;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .container__paragraph-margin {
     font-style: normal;
@@ -16,16 +16,11 @@
 .right {
     float: right;
     margin-right: 63px;
-    margin-bottom: 30px;
 }
 .collage-picture {
-    background: url(../pictures/collage.jpg);
-    width: 560px;
-    height: 415px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .margin-picture {
-    background: url(../pictures/margin-picture.jpg);
     width: 560px;
     height: 279px;
     float: right;

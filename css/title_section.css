@@ -5,7 +5,7 @@
     font-size: 60px;
     line-height: 120%;
     color: #000000;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .title-section__article {
     font-style: normal;
@@ -22,6 +22,8 @@
     background-color: #F1F1F1;
     border-radius: 10px;
     height: 215px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 .content-header {
     font-style: normal;
@@ -29,8 +31,10 @@
     font-size: 44px;
     line-height: 120%;
     color: #000000;
-    margin-left: 45px;
-    padding-top: 25px;
+    padding: 0px 790px 20px 45px
+}
+.margin-mod {
+    margin-bottom: 10px;
 }
 .content__list {
     font-style: normal;
@@ -38,5 +42,6 @@
     font-size: 20px;
     line-height: 120%;
     color: #02535F;
-    margin-left: 30px;
+    margin: 0px;
+    padding: 0px 446px 21px 70px
 }

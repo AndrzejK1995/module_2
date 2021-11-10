@@ -1,15 +1,33 @@
-.black { 
+
+.height {
+    height: 376px;
+}
+.content-header-mod {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 120%;
+    color: #000000; 
+    padding: 25px 794px 25px 30px;
+}
+content__marga {
+    margin-bottom: 9px;
+}
+.content__list-black {
+    list-style-type: "-";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 120%;
     color: #000000;
-    list-style-type: "-";
+    margin: 0px;
+    padding: 0px 473px 29px 49px;
 }
-.modificator {
-    margin-left: 64px;
-    margin-bottom: 22px;
-}
-.height {
-    height: 376px;
+.last-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    padding: 0px 138px 48px 49px;
 }
