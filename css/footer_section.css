@@ -3,6 +3,7 @@
     height: 376px;
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 25px 42px 51px 30px;
 }
 .content-header-mod {
     font-style: normal;
@@ -10,9 +11,7 @@
     font-size: 44px;
     line-height: 120%;
     color: #000000; 
-    margin-left: 30px;
-    margin-bottom: 25px;
-    padding-top: 25px;
+    
 }
 content__marga {
     margin-bottom: 9px;

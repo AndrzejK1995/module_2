@@ -4,7 +4,7 @@
     font-size: 36px;
     line-height: 120%;
     color: #000000;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .container__paragraph-margin {
     font-style: normal;
@@ -18,7 +18,7 @@
     margin-right: 63px;
 }
 .collage-picture {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .margin-picture {
     width: 560px;

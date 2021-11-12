@@ -23,6 +23,7 @@
     border-radius: 10px;
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 24px 0px 25px 0px;
 }
 .content-header {
     font-style: normal;
@@ -30,7 +31,8 @@
     font-size: 44px;
     line-height: 120%;
     color: #000000;
-    padding: 0px 790px 20px 45px
+    margin-bottom: 25px;
+    margin-left: 43px;
 }
 .margin-mod {
     margin-bottom: 10px;
@@ -41,6 +43,5 @@
     font-size: 20px;
     line-height: 120%;
     color: #02535F;
-    margin: 0px;
-    padding: 0px 446px 21px 70px
+    margin: 25px;
 }
